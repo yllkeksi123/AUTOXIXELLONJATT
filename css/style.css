@@ -1,0 +1,359 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0%;
+    margin: 0%;
+    background-color: #f4f4f4;
+}
+
+
+/* TPERGJITHSHMET */
+
+.center {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+.button_1 {
+    height: 38px;
+    background: #ab6530;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button_2 {
+    height: 38px;
+    background: #ab6530;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button_3 {
+    height: 40px;
+    background: #ab6530;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+/* header*/
+
+header {
+    background: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ab6530 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0%;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+header .highlight,
+header .current a {
+    color: #ab6530;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+/* SHOWCASE */
+
+#showcase {
+    min-height: 300px;
+/*    background: url(../img/showcase.png) no-repeat 400px -80px;*/
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    color: #ab6530;
+}
+
+#showcase p {
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: -12px;
+    color: #ab6530;
+}
+
+#showcase_2 {
+    text-align: center;
+}
+
+#showcase_2 h1 {
+    font-size: 40px;
+}
+
+#showcase_2 p {
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #ab6530;
+    margin: -20px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.dergo {
+    cursor: pointer;
+}
+
+
+/* EMAIL */
+
+#newsletter {
+    padding: 15px;
+    color: white;
+    background: black;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+
+/* KERRET */
+
+#kerret {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.kerr {
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#kerret .audia4 {
+    width: 80%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#kerret .audia4:hover {
+    width: 90%;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.car-info {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+#audia44 .kerrr {
+    text-align: center;
+    margin-left: 30%;
+}
+
+#sidebar {
+    width: 20%;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 6px 7px 19px 0px rgba(54, 53, 53, 0.75);
+    -webkit-box-shadow: 6px 7px 19px 0px rgba(54, 53, 53, 0.75);
+    -moz-box-shadow: 6px 7px 19px 0px rgba(54, 53, 53, 0.75);
+    padding: 0 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 30%;
+}
+
+.stili-kutive {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.stili-kutive:focus-visible {
+    border: 2px solid black;
+    outline: 1px solid black;
+}
+
+/*ICONA*/
+
+.icona{
+    float: right;
+       height: 25px;
+    width: 460px;
+}
+
+.ing{
+    height: 60px;
+    width: 60px;
+    padding-left: 400px;
+    margin-top: -200px;
+}
+
+.fcb{
+    height: 60px;
+    width: 60px;
+    padding-left: 790px;
+    margin-top: -200px;
+}
+
+.cont{
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .moblie-h1 { 
+        font-size: 25px;
+    }
+    .moblie-h1-2 {
+        font-size: 18px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+    .button_1 {
+        height: 30px;
+        background: #ab6530;
+        border: 0;
+        padding-left: 13px;
+        padding-right: 20px;
+        margin-top: 1px;
+        color: white;
+        cursor: pointer;
+        float: right;
+    }
+    
+    header .current a {
+        color: #ab6530;
+        font-weight: bold;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    header .li-mobil a {
+        font-size: 13px;
+    }
+
+    #kerret .audia4 {
+        margin-left: 40px;
+        width: 120%;
+        justify-content: space-between;
+        cursor: pointer;
+        
+    }
+    
+    #kerret .audia4:hover {
+        width: 115%;
+    }
+    .car-mobi-name{
+        margin-left: 40px;
+    }
+    .audia4-2{
+        width: 250px;
+        margin-right: 200px;
+        margin-top: 30px;
+           }
+        #sidebar {
+            width: 30%;
+            background-color: black;
+            border-radius: 15px;
+            box-shadow: 6px 7px 19px 0px rgba(54, 53, 53, 0.75);
+            -webkit-box-shadow: 6px 7px 19px 0px rgba(54, 53, 53, 0.75);
+            -moz-box-shadow: 6px 7px 19px 0px rgba(54, 53, 53, 0.75);
+            padding: 50px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            margin-left: 30%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        .car-info {
+            width: 80%;
+            display: inline;
+            flex-direction: row;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+        #audia44 .kerrr {
+            /* text-align: center; */
+            margin-right: 50%;
+        }
+       
+}
